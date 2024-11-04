@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "main": "build/src/server.js",
   "scripts": {
-    "tsc":"tsc",
+    "tsc": "tsc",
     "build": "tsoa spec-and-routes && tsc",
     "start": "node build/src/server.js",
-    "tsoa":"tsoa"
+    "tsoa": "tsoa"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.8.7",
+    "@types/swagger-ui-express": "^4.1.7",
     "tsoa": "^6.5.1",
     "typescript": "^5.6.3"
   }

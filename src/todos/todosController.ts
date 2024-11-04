@@ -14,6 +14,9 @@ import {
   
   @Route("todo")
   export class TodoController extends Controller {
+    /**
+    * This is the controller for creating todo
+    */
     @Get("{todoId}")
     public async getTodo(
       @Path() todoId: string
